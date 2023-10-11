@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import Slider from "./Slider"
+import Slider2 from "./Slider2"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Slider />
+    <Slider2 />
   </React.StrictMode>
 );
 

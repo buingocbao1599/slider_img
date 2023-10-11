@@ -1,0 +1,8 @@
+.main_slider2 {
+    display: flex;
+}
+
+img {
+    max-width: 30rem;
+    max-height: 20rem;
+}
