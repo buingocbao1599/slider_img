@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.action_table_group .Polaris-Icon {
+    margin: 0px 1rem 0rem 0rem;
+}
+
 .pagination {
     display: flex;
     justify-content: center;
