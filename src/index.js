@@ -2,14 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
-import Slider from "./Slider"
-import Slider2 from "./Slider2"
+import { AppProvider } from '@shopify/polaris';
+import '@shopify/polaris/build/esm/styles.css';
+import enTranslations from '@shopify/polaris/locales/en.json';
+import Table from "./Table";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Slider2 />
+    <AppProvider i18n={enTranslations}>
+      <Table />
+    </AppProvider>
   </React.StrictMode>
 );
 

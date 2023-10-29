@@ -1,0 +1,10 @@
+
+.action_table_group{
+    display: flex;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
